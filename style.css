@@ -106,6 +106,11 @@
 		position: relative;
 	}
 
+
+	#indice .units ul li.active:not(.disabled) {
+    background-color: #F6323E;
+	}
+
 	.content_type_clase_piedrasantademo #actividad .slide-concatenate {
 		margin-top: 30px;
 	}
@@ -114,6 +119,11 @@
 	.content_type_clase_piedrasantademo #actividad .content .header .chapter {
 		display: none;
 	}
+
+	#indice .units ul li {
+    padding: 0;
+    border-radius: 0px;
+}
 
 	#indice .units ul li a .number,
 	#indice .unit-content .header .number
@@ -126,11 +136,95 @@
 		margin-bottom: 0;
 	}
 
+/*Material de apoyo*/
+
+#indice .unit-content .material .item .imagen.img:before {
+    background-color: #FFBF3B;
+    background-image: none;
+}
+
+
+#indice .unit-content .material .item .imagen.musica:before {
+    background-color: #FFBF3B;
+    background-image: none;
+}
+
+#indice .unit-content .material .item .imagen.video:before {
+    background-color: #FFBF3B;
+    background-image: none;
+}
+
+
+#indice .unit-content .material .item .imagen.archivo:before {
+    background-color: #FFBF3B;
+    background-image: none;
+}
+
+/**/
+.btn-primary.disabled {
+    color: #F6323E;
+    background-color: #fff;
+    border-color: transparent;
+    opacity: 1;
+}
+
+/*text img*/
+#indice .unit-content .header .title {
+    padding: 5px 10px;
+    background: #ffffffc4;
+    color: #444;
+    float: left;
+    font-size: 33px;
+    font-weight: normal;
+    height: auto;
+    line-height: 34px;
+    margin: 90px 0px 20px 30px;
+    overflow: hidden;
+    z-index: 1;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+/*Numero intentos*/
+
+#actividad .content .review .attemps span {
+    width: 35px;
+    height: 35px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #F5821F;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    text-align: center;
+    padding: 6px 12px;
+    margin: 0 3px;
+    display: inline-block;
+    line-height: 24px;
+}
+
+/*logo*/
+    .content_type_clase_piedrasantademo #actividad .content .header .title:before {
+    content: " ";
+    background: url(imagenes/logopiedrasanta.png);
+    padding: 30px 64px;
+    position: absolute;
+    right: 22px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 	.content_type_clase_piedrasantademo #actividad .content .header .title {
-		margin: -40px 0 20px;
-		background: #10A0C6;
-		padding: 20px 97px;
-	}
+    margin: -40px 0 20px;
+    background: #fff;
+    width: 80%;
+    padding: 20px 97px;
+    margin-bottom: 40px;
+}
 
 	.content_type_clase_piedrasantademo #actividad .content .slide-concatenate .header .title {
 		display: none;
@@ -271,25 +365,13 @@
 
 /* Navbar */
 	.navbar-bottom {
-		background: #132E4C;
+		background: #bbbbbb;
 		padding-left: 100px;
 		padding-right: 100px;
 	}
 
 	.logo-publisher {
-		display: inline-block;
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100px;
-		height: 44px;
-		background: url(logo-pearson.png) 0 0 no-repeat;
-		-webkit-background-size: contain;
-		   -moz-background-size: contain;
-		     -o-background-size: contain;
-		        background-size: contain;
-		background-position: center center;
-
+		display: none;
 	}
 
 	@media only screen and (max-width: 640px) {
@@ -348,7 +430,7 @@
 		width: 18px;
 		height: 18px;
 		margin: 2px 5px;
-		background: #fff;
+		background: #333D47;
 		color: transparent;
 		line-height: 2.2rem;
 		font-size: 1.8rem;
@@ -356,11 +438,11 @@
 		text-indent: initial;
 	}
 	#bottom-navigator li:hover {
-		background: rgb(142, 206, 224);
+		background: #F5821F;
 		color: transparent;
 	}
 	#bottom-navigator li.active {
-		background: #007FA3;
+		background: #F5821F;
 		color: transparent;
 	}
 	#bottom-navigator.show_left:before {
@@ -401,6 +483,12 @@
 	}
 
 /**/
+
+/*Enlaces*/
+
+a:hover, a:active, a:focus {
+    color: #F6323E;
+}
 
 /*TITULO 1*/
 
@@ -493,20 +581,18 @@
     left: -3px;
     display: block;
     width: 24px;
-    height: 24px;
-    -webkit-box-shadow: 2px 2px 2px 0px rgba(174,87,30,1);
-	   -moz-box-shadow: 2px 2px 2px 0px rgba(174,87,30,1);
-			box-shadow: 2px 2px 2px 0px rgba(174,87,30,1);
-    border: 1px solid #b25313;
-    -webkit-border-radius: 50%;
-       -moz-border-radius: 50%;
-            border-radius: 50%;
-    background: #F58220;
+    height: 24px; 
     color: #fff;
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
     line-height: 2.5rem;
+    box-shadow: none;
+    border: 0px solid #022321;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #00A99D;
 }
 
 /*LISTA ORDENADA 2*/
@@ -567,12 +653,12 @@
 
 .bck-box {
 	margin: 10px;
-	border: 2px solid #10a0c6;
-	-webkit-border-radius: 10px;
-	   -moz-border-radius: 10px;
-	        border-radius: 10px;
-	background: #fff;
-	padding: 6px;
+    border: 2px solid #00A99D;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #fff;
+    padding: 16px;
 }
 
 .bck-box .bck-content p:last-child {
@@ -693,7 +779,7 @@
        -moz-box-shadow: inset 0 0px 0px rgba(0,0,0,0.075);
     		box-shadow: inset 0 0px 0px rgba(0,0,0,0.075);
     border: 0px solid #ccc;
-    border-bottom: 2px solid #10A0C6;
+    border-bottom: 2px dashed #00A99D;
     -webkit-border-radius: 0px;
        -moz-border-radius: 0px;
     		border-radius: 0px;
@@ -723,6 +809,7 @@
     border-color: #10A0C6;
     border-style: solid;
     background: #fff;
+    border: 2px dashed #00A99D;
 }
 
 #actividad .workspace.matching .opciones .opcion.emparejado.destino {
@@ -744,7 +831,7 @@
 
 .fillblanks-draggable-wrapper .response {
     border: 0px solid #d8d8d8;
-    background: #c1e5f7;
+    background: #ffbf3b;
 }
 
 .fillblanks-draggable-wrapper .response .bck-i-fullscreen-wrapper {
@@ -758,4 +845,9 @@ body.content_type_clase_piedrasantademo #actividad .content .fillblanks-draggabl
 	width: auto;
 	height: 100px !important;
 	padding: 0;
+}
+
+body:not(.isTablet) #indice .units ul li:hover:not(.disabled), 
+#indice .units ul li:focus:not(.disabled) {
+    background: #F5821F;
 }
