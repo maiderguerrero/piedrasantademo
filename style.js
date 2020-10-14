@@ -24,13 +24,7 @@
 
 				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box1' } },
 				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box2' } },
-				{ name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box3' } },
-
-				{ name: 'Icono Draw', element: 'span', attributes: { 'class': 'icon icon-draw' } },
-				{ name: 'Icono Write', element: 'span', attributes: { 'class': 'icon icon-write' } },
-				{ name: 'Icono Speaking', element: 'span', attributes: { 'class': 'icon icon-speaking' } },
-				{ name: 'Icono Reading', element: 'span', attributes: { 'class': 'icon icon-reading' } },
-				{ name: 'Icono Star', element: 'span', attributes: { 'class': 'icon icon-star' } }
+				{ name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box3' } }
 			]
 		},
 
