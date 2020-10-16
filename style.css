@@ -93,15 +93,15 @@
 
 /*text img*/
 #indice .unit-content .header .title {
-    padding: 5px 10px;
+        padding: 5px 10px;
     background: #ffffffc4;
     color: #444;
     float: left;
-    font-size: 33px;
+    font-size: 20px;
     font-weight: normal;
     height: auto;
     line-height: 34px;
-    margin: 90px 0px 20px 30px;
+    margin: 80px 0px 20px 0px;
     overflow: hidden;
     z-index: 1;
     display: block;
