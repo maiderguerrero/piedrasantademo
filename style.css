@@ -83,6 +83,11 @@
     background-image: none;
 }
 
+#indice .unit-content .material .item .imagen.actividad:before {
+    background-color: #FFBF3B;
+    background-image: none;
+}
+
 /**/
 .btn-primary.disabled {
     color: #F6323E;
