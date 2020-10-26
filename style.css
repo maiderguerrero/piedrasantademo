@@ -2,62 +2,62 @@
 
 /* General */
 
-	body.content_type_clase_piedrasantademo {
-		font-size: 1.8rem;
-	}
+    body.content_type_clase_piedrasantademo {
+        font-size: 1.8rem;
+    }
 
-	body.content_type_clase_piedrasantademo #actividad .content img {
-		padding: 5px;
-	}
-
-
-	.is_app.content_type_clase_piedrasantademo {
-		padding-top: 0px;
-	}
-
-	.content_type_clase_piedrasantademo #actividad {
-		margin-bottom: 0px;
-		-webkit-transform: none;
-		-webkit-transform-style: flat;
-	}
-
-	#actividad .carousel-inner .item-container {
-		background-image: none;
-		margin: 20px auto 30px;
-		padding: 0px;
-		padding-bottom: 90px;
-		position: relative;
-	}
+    body.content_type_clase_piedrasantademo #actividad .content img {
+        padding: 5px;
+    }
 
 
-	#indice .units ul li.active:not(.disabled) {
+    .is_app.content_type_clase_piedrasantademo {
+        padding-top: 0px;
+    }
+
+    .content_type_clase_piedrasantademo #actividad {
+        margin-bottom: 0px;
+        -webkit-transform: none;
+        -webkit-transform-style: flat;
+    }
+
+    #actividad .carousel-inner .item-container {
+        background-image: none;
+        margin: 20px auto 30px;
+        padding: 0px;
+        padding-bottom: 90px;
+        position: relative;
+    }
+
+
+    #indice .units ul li.active:not(.disabled) {
     background-color: #F6323E;
-	}
+    }
 
-	.content_type_clase_piedrasantademo #actividad .slide-concatenate {
-		margin-top: 30px;
-	}
+    .content_type_clase_piedrasantademo #actividad .slide-concatenate {
+        margin-top: 30px;
+    }
 
-	.content_type_clase_piedrasantademo #actividad .content .header .title img,
-	.content_type_clase_piedrasantademo #actividad .content .header .chapter {
-		display: none;
-	}
+    .content_type_clase_piedrasantademo #actividad .content .header .title img,
+    .content_type_clase_piedrasantademo #actividad .content .header .chapter {
+        display: none;
+    }
 
-	#indice .units ul li {
+    #indice .units ul li {
     padding: 0;
     border-radius: 0px;
 }
 
-	#indice .units ul li a .number,
-	#indice .unit-content .header .number
-	 {
-		visibility: hidden;
-	}
+    #indice .units ul li a .number,
+    #indice .unit-content .header .number
+     {
+        visibility: hidden;
+    }
 
-	.content_type_clase_piedrasantademo #actividad .content .header {
-		border: none;
-		margin-bottom: 0;
-	}
+    .content_type_clase_piedrasantademo #actividad .content .header {
+        border: none;
+        margin-bottom: 0;
+    }
 
 /*Material de apoyo*/
 
@@ -86,6 +86,16 @@
 #indice .unit-content .material .item .imagen.actividad:before {
     background-color: #FFBF3B;
     background-image: none;
+}
+
+#indice .unit-content .material .item .imagen.url:before {
+    background-image: none;
+    background-color: #ffbf3b;
+}
+
+#indice .unit-content .material .item .imagen.libro:before {
+    background-image: none;
+    background-color: #ffbf3b;
 }
 
 /**/
@@ -146,7 +156,7 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
-	.content_type_clase_piedrasantademo #actividad .content .header .title {
+    .content_type_clase_piedrasantademo #actividad .content .header .title {
     margin: -40px 0 20px;
     background: #fff;
     width: 80%;
@@ -154,261 +164,261 @@
     margin-bottom: 40px;
 }
 
-	.content_type_clase_piedrasantademo #actividad .content .slide-concatenate .header .title {
-		display: none;
-	}
+    .content_type_clase_piedrasantademo #actividad .content .slide-concatenate .header .title {
+        display: none;
+    }
 
-	.content_type_clase_piedrasantademo #actividad .content .header .title h3 {
-		position: relative;
-		display: block;
-		width: 100%;
-		margin: 0;
-		padding: 0;
-		color: #fff;
-		font-size: 1.4rem;
-		font-weight: 700;
-		text-align: right;
-	}
+    .content_type_clase_piedrasantademo #actividad .content .header .title h3 {
+        position: relative;
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        font-size: 1.4rem;
+        font-weight: 700;
+        text-align: right;
+    }
 
-	.content_type_clase_piedrasantademo #actividad .content .header .title h3 span {
-		float: left;
-		font-size: 1.8rem;
-		font-weight: 900;
-		line-height: 1.1rem;
-	}
+    .content_type_clase_piedrasantademo #actividad .content .header .title h3 span {
+        float: left;
+        font-size: 1.8rem;
+        font-weight: 900;
+        line-height: 1.1rem;
+    }
 
-	.content_type_clase_piedrasantademo #actividad .slide_content_type_1 .pregunta .texto_curso,
-	.content_type_clase_piedrasantademo #actividad .texto_curso,
-	.html-book {
-		font-size: 1.8rem;
-	}
+    .content_type_clase_piedrasantademo #actividad .slide_content_type_1 .pregunta .texto_curso,
+    .content_type_clase_piedrasantademo #actividad .texto_curso,
+    .html-book {
+        font-size: 1.8rem;
+    }
 
-	.texto_curso p:last-of-type {
-		margin-bottom: 15px;
-	}
+    .texto_curso p:last-of-type {
+        margin-bottom: 15px;
+    }
 
-	.content_type_clase_piedrasantademo #actividad .texto_curso li,
-	.content_type_clase_piedrasantademo #actividad .workspace ul li li {
-		margin-bottom: 10px;
-	}
+    .content_type_clase_piedrasantademo #actividad .texto_curso li,
+    .content_type_clase_piedrasantademo #actividad .workspace ul li li {
+        margin-bottom: 10px;
+    }
 
-	#actividad .class_slide {
-    	padding: 40px 0 0;
-	}
+    #actividad .class_slide {
+        padding: 40px 0 0;
+    }
 
-	#actividad .class_slide:last-of-type {
-	    padding-bottom: 0px;
-	}
+    #actividad .class_slide:last-of-type {
+        padding-bottom: 0px;
+    }
 
-	#actividad .slide-concatenate .class_slide {
-	    padding-bottom: 20px;
-	}
+    #actividad .slide-concatenate .class_slide {
+        padding-bottom: 20px;
+    }
 
-	#actividad .slide-concatenate:last-of-type .class_slide {
-	    padding-bottom: 100px;
-	}
+    #actividad .slide-concatenate:last-of-type .class_slide {
+        padding-bottom: 100px;
+    }
 
-	.content_type_clase_piedrasantademo .slide_main {
-		padding: 0 97px;
-	}
+    .content_type_clase_piedrasantademo .slide_main {
+        padding: 0 97px;
+    }
 
-	@media screen and (max-width: 480px) {
-		.content_type_clase_piedrasantademo .slide_main {
-			padding: 0 35px;
-		}
-	}
+    @media screen and (max-width: 480px) {
+        .content_type_clase_piedrasantademo .slide_main {
+            padding: 0 35px;
+        }
+    }
 
-	.content_type_clase_piedrasantademo .slide_main input,
-	.content_type_clase_piedrasantademo .slide_main .img-input-container {
-		color: #555;
-		background-color: #fff;
-		background-image: none;
-		border: 1px solid #ccc;
-		-webkit-border-radius: 4px;
-		   -moz-border-radius: 4px;
-		        border-radius: 4px;
-		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
-		-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
-		     box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
-		-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-		-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-		transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-		-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-		-moz-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -moz-box-shadow ease-in-out .15s;
-		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s, -moz-box-shadow ease-in-out .15s;
-	}
+    .content_type_clase_piedrasantademo .slide_main input,
+    .content_type_clase_piedrasantademo .slide_main .img-input-container {
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        -webkit-border-radius: 4px;
+           -moz-border-radius: 4px;
+                border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+        -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+             box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+        -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        -moz-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -moz-box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s, -moz-box-shadow ease-in-out .15s;
+    }
 
-	.content_type_clase_piedrasantademo .slide_main input:focus,
-	.content_type_clase_piedrasantademo .slide_main .img-input-container:focus {
-		border-top-color: #3AC62A;
-		border-right-color: #3AC62A;
-		border-bottom-color: #3AC62A;
-		border-left-color: #3AC62A;
-		outline-width: 0px;
-		outline-style: none;
-		-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
-		   -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
-		        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
-	}
+    .content_type_clase_piedrasantademo .slide_main input:focus,
+    .content_type_clase_piedrasantademo .slide_main .img-input-container:focus {
+        border-top-color: #3AC62A;
+        border-right-color: #3AC62A;
+        border-bottom-color: #3AC62A;
+        border-left-color: #3AC62A;
+        outline-width: 0px;
+        outline-style: none;
+        -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
+           -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
+                box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
+    }
 
-	.content_type_clase_piedrasantademo .slide_main input[disabled],
-	.content_type_clase_piedrasantademo .slide_main input[readonly],
-	fieldset[disabled] .content_type_clase_piedrasantademo .slide_main input,
-	.content_type_clase_piedrasantademo .slide_main .img-input-container {
-		cursor: not-allowed;
-		background-color: #eee;
-		opacity: 1;
-	}
+    .content_type_clase_piedrasantademo .slide_main input[disabled],
+    .content_type_clase_piedrasantademo .slide_main input[readonly],
+    fieldset[disabled] .content_type_clase_piedrasantademo .slide_main input,
+    .content_type_clase_piedrasantademo .slide_main .img-input-container {
+        cursor: not-allowed;
+        background-color: #eee;
+        opacity: 1;
+    }
 
-	.content_type_clase_piedrasantademo .slide_main .img-input-container input[readonly],
-	.content_type_clase_piedrasantademo .slide_main .img-input-container input[disabled] {
-		opacity: 0;
-		filter: alpha(opacity=0);
-	}
+    .content_type_clase_piedrasantademo .slide_main .img-input-container input[readonly],
+    .content_type_clase_piedrasantademo .slide_main .img-input-container input[disabled] {
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
 
-	.content_type_clase_piedrasantademo .slide_main input.respuesta_ok,
-	.content_type_clase_piedrasantademo .slide_main .img-input-container.respuesta_ok {
-		border-color: #57e900;
-		background: #D1F3BD;
-	}
+    .content_type_clase_piedrasantademo .slide_main input.respuesta_ok,
+    .content_type_clase_piedrasantademo .slide_main .img-input-container.respuesta_ok {
+        border-color: #57e900;
+        background: #D1F3BD;
+    }
 
-	.content_type_clase_piedrasantademo .slide_main input.respuesta_ko,
-	.content_type_clase_piedrasantademo .slide_main .img-input-container.respuesta_ko {
-		border-color: #FF3626;
-		background: #FFA49D;
-	}
+    .content_type_clase_piedrasantademo .slide_main input.respuesta_ko,
+    .content_type_clase_piedrasantademo .slide_main .img-input-container.respuesta_ko {
+        border-color: #FF3626;
+        background: #FFA49D;
+    }
 
-	.content_type_clase_piedrasantademo .slide_main input.solucion,
-	.content_type_clase_piedrasantademo .slide_main .img-input-container.solucion {
-		border-color: #00BDFF;
-		background: #B6ECFF;
-	}
+    .content_type_clase_piedrasantademo .slide_main input.solucion,
+    .content_type_clase_piedrasantademo .slide_main .img-input-container.solucion {
+        border-color: #00BDFF;
+        background: #B6ECFF;
+    }
 
-	.zoom_flag_img {
-		top: 15px;
-		right: 15px;
-	}
+    .zoom_flag_img {
+        top: 15px;
+        right: 15px;
+    }
 /**/
 
 /* Navbar */
-	.navbar-bottom {
-		background: #bbbbbb;
-		padding-left: 100px;
-		padding-right: 100px;
-	}
+    .navbar-bottom {
+        background: #bbbbbb;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
 
-	.logo-publisher {
-		display: none;
-	}
+    .logo-publisher {
+        display: none;
+    }
 
-	@media only screen and (max-width: 640px) {
-		.navbar-bottom {
-			padding-left: 40px;
-			padding-right: 40px;
-		}
+    @media only screen and (max-width: 640px) {
+        .navbar-bottom {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
 
-		.logo-publisher {
-			width: 40px;
-			background-image: url(Pearson-logo-2016-219x286.png);
-		}
-	}
+        .logo-publisher {
+            width: 40px;
+            background-image: url(Pearson-logo-2016-219x286.png);
+        }
+    }
 
-	.slider-indicators {
-	    padding-left: 0px;
-	    padding-right: 0px;
-	    white-space: nowrap;
-	}
-	.edit .slider-indicators {
-		white-space: normal;
-	}
-	.slider-indicators li,
-	.edit .slider-indicators li {
-		background-color: #ffffff;
-	    color: #005840;
-	}
+    .slider-indicators {
+        padding-left: 0px;
+        padding-right: 0px;
+        white-space: nowrap;
+    }
+    .edit .slider-indicators {
+        white-space: normal;
+    }
+    .slider-indicators li,
+    .edit .slider-indicators li {
+        background-color: #ffffff;
+        color: #005840;
+    }
 
-	.slider-indicators .active,
-	.edit .slider-indicators .active,
-	.slider-indicators li:hover,
-	.edit .slider-indicators .concat.active,
-	.slider-indicators .active {
-	    background-color: #007FA3;
-	    color: #ffffff;
-	}
+    .slider-indicators .active,
+    .edit .slider-indicators .active,
+    .slider-indicators li:hover,
+    .edit .slider-indicators .concat.active,
+    .slider-indicators .active {
+        background-color: #007FA3;
+        color: #ffffff;
+    }
 
-	.edit .slider-indicators .concat.active:before {
- 		background-color: #007FA3;
-	}
+    .edit .slider-indicators .concat.active:before {
+        background-color: #007FA3;
+    }
 
-	#bottom-navigator {
-		overflow: hidden;
-		position: relative;
-	}
-	#bottom-navigator .slider-indicators {
-		margin-left: auto;
-		margin-right: auto;
-	}
-	#bottom-navigator .slider-indicators:after {
-		content: '';
-		display: table;
-		clear: both;
-	}
-	#bottom-navigator li {
-		width: 18px;
-		height: 18px;
-		margin: 2px 5px;
-		background: #333D47;
-		color: transparent;
-		line-height: 2.2rem;
-		font-size: 1.8rem;
-		font-weight: bold;
-		text-indent: initial;
-	}
-	#bottom-navigator li:hover {
-		background: #F5821F;
-		color: transparent;
-	}
-	#bottom-navigator li.active {
-		background: #F5821F;
-		color: transparent;
-	}
-	#bottom-navigator.show_left:before {
-		content: '\F053';
-		font-family: 'FontAwesome';
-		position: absolute;
-		left: 0;
-		z-index: 100;
-		color: #ffffff;
-		top: 10px;
-		height: 35px;
-		line-height: 5.4rem;
-		width: 20px;
-		text-align: left;
-		background: -webkit-gradient(linear, left top, right top, from(#132E4C), to(transparent));
-		background: -webkit-linear-gradient(left, #132E4C, transparent);
-		background: -moz-linear-gradient(left, #132E4C, transparent);
-		background: -o-linear-gradient(left, #132E4C, transparent);
-		background: linear-gradient(to right, #132E4C, transparent);
-	}
+    #bottom-navigator {
+        overflow: hidden;
+        position: relative;
+    }
+    #bottom-navigator .slider-indicators {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #bottom-navigator .slider-indicators:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    #bottom-navigator li {
+        width: 18px;
+        height: 18px;
+        margin: 2px 5px;
+        background: #333D47;
+        color: transparent;
+        line-height: 2.2rem;
+        font-size: 1.8rem;
+        font-weight: bold;
+        text-indent: initial;
+    }
+    #bottom-navigator li:hover {
+        background: #F5821F;
+        color: transparent;
+    }
+    #bottom-navigator li.active {
+        background: #F5821F;
+        color: transparent;
+    }
+    #bottom-navigator.show_left:before {
+        content: '\F053';
+        font-family: 'FontAwesome';
+        position: absolute;
+        left: 0;
+        z-index: 100;
+        color: #ffffff;
+        top: 10px;
+        height: 35px;
+        line-height: 5.4rem;
+        width: 20px;
+        text-align: left;
+        background: -webkit-gradient(linear, left top, right top, from(#132E4C), to(transparent));
+        background: -webkit-linear-gradient(left, #132E4C, transparent);
+        background: -moz-linear-gradient(left, #132E4C, transparent);
+        background: -o-linear-gradient(left, #132E4C, transparent);
+        background: linear-gradient(to right, #132E4C, transparent);
+    }
 
-	#bottom-navigator.show_right:after {
-		content: '\F054';
-		font-family: 'FontAwesome';
-		position: absolute;
-		right: 0;
-		color: #ffffff;
-		top: 10px;
-		height: 35px;
-		line-height: 5.4rem;
-		width: 20px;
-		text-align: right;
-		background: -webkit-gradient(linear, right top, left top, from(#132E4C), to(transparent));
-		background: -webkit-linear-gradient(right, #132E4C, transparent);
-		background: -moz-linear-gradient(right, #132E4C, transparent);
-		background: -o-linear-gradient(right, #132E4C, transparent);
-		background: linear-gradient(to left, #132E4C, transparent);
-	}
+    #bottom-navigator.show_right:after {
+        content: '\F054';
+        font-family: 'FontAwesome';
+        position: absolute;
+        right: 0;
+        color: #ffffff;
+        top: 10px;
+        height: 35px;
+        line-height: 5.4rem;
+        width: 20px;
+        text-align: right;
+        background: -webkit-gradient(linear, right top, left top, from(#132E4C), to(transparent));
+        background: -webkit-linear-gradient(right, #132E4C, transparent);
+        background: -moz-linear-gradient(right, #132E4C, transparent);
+        background: -o-linear-gradient(right, #132E4C, transparent);
+        background: linear-gradient(to left, #132E4C, transparent);
+    }
 
 /**/
 
@@ -420,83 +430,43 @@ a:hover, a:active, a:focus {
 
 /*TITULO 1*/
 
-.bck-title1 {
-	display: inline-block;
-	-webkit-box-shadow: 0 0 0 2px #10a0c6;
-	   -moz-box-shadow: 0 0 0 2px #10a0c6;
-	        box-shadow: 0 0 0 2px #10a0c6;
-	border: 2px solid #fff;
-	background: #9ac9df;
-	padding: 4px 8px;
-	color: #10a0c6;
-    font-family: GhostKid;
-    font-size: 2.4rem;
-    letter-spacing: 1px;
-    text-shadow: 1px 1px #fff,
-    			 1px 0px #fff,
-    			 1px -1px #fff,
-    			 0px -1px #fff,
-    			 -1px -1px #fff,
-    			 -1px 0px #fff,
-    			 -1px 1px #fff,
-    			 0px 1px #fff,
-    			 2px 2px #10a0c6;
-    line-height: 1;
-}
 
-/*TITULO 2*/
-
-.bck-title2 {
-	display: block;
-    color: #f58220;
-    font-family: GhostKid;
-    font-size: 2.4rem;
-    letter-spacing: 1px;
-    text-shadow: 1px 1px #fff,
-    			 1px 0px #fff,
-    			 1px -1px #fff,
-    			 0px -1px #fff,
-    			 -1px -1px #fff,
-    			 -1px 0px #fff,
-    			 -1px 1px #fff,
-    			 0px 1px #fff;
-}
 
 /* Lists */
 
 .texto_curso ul li,
 .workspace ul li ul li,
 .cke_contents ul li {
-	padding-left: 30px;
+    padding-left: 30px;
 }
 
 .texto_curso ul li:before,
 .workspace ul li ul li:before,
 .cke_contents ul li:before {
-	width: 4px;
-	height: 4px;
-	background-color: #414141;
+    width: 4px;
+    height: 4px;
+    background-color: #414141;
 }
 
 .content .bck-ol,
 .cke_contents .bck-ol,
 .content ol,
 .cke_contents ol {
-	list-style-type: none;
-	padding-left: 0;
-	counter-reset: bck-li-counter;
+    list-style-type: none;
+    padding-left: 0;
+    counter-reset: bck-li-counter;
 }
 
 .content .bck-ol li,
 .cke_contents .bck-ol li,
 .content ol li,
 .cke_contents ol li {
-	list-style-type: none;
-	padding-left: 28px;
-	margin-bottom: 16px;
-	counter-increment: bck-li-counter;
-	position: relative;
-	line-height: 1.1rem;
+    list-style-type: none;
+    padding-left: 28px;
+    margin-bottom: 16px;
+    counter-increment: bck-li-counter;
+    position: relative;
+    line-height: 1.1rem;
 }
 
 .content .bck-ol1 li:before,
@@ -523,51 +493,6 @@ a:hover, a:active, a:focus {
     background: #00A99D;
 }
 
-/*LISTA ORDENADA 2*/
-
-.content .bck-ol2 li:before,
-.cke_contents .bck-ol2 li:before {
-	-webkit-box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
-       -moz-box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
-    		box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
-    border: 1px solid #109FC5;
-    background: #fff;
-    color: #000;
-}
-
-/*LISTA ORDENADA 3*/
-
-.content .bck-ol3 li:before,
-.cke_contents .bck-ol3 li:before {
-	-webkit-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
-       -moz-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
-    		box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
-    border: none;
-    background: transparent;
-    color: #000;
-    font-size: 2rem;
-}
-
-/*LISTA ORDENADA 4*/
-
-.content .bck-ol4 li:before,
-.cke_contents .bck-ol4 li:before {
-	content: counter(bck-li-counter, lower-alpha);
-	top: 0;
-	left: -5px;
-	width: 28px;
-	height: 20px;
-	-webkit-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
-       -moz-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
-    		box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
-    border: none;
-    -webkit-border-radius: 0;
-       -moz-border-radius: 0;
-            border-radius: 0;
-    background: #C9DE79;
-    color: #000;
-    line-height: 2rem;
-}
 
 /*LISTA DESORDENADA POR DEFECTO*/
 
@@ -579,8 +504,14 @@ a:hover, a:active, a:focus {
 
 /*CAJAS*/
 
-.bck-box {
-	margin: 10px;
+.bck-box .bck-content p:last-child {
+    margin-bottom: 0;
+}
+
+/*Caja 1*/
+
+.bck-box1 {
+    margin: 10px;
     border: 2px solid #00A99D;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -589,60 +520,8 @@ a:hover, a:active, a:focus {
     padding: 16px;
 }
 
-.bck-box .bck-content p:last-child {
-	margin-bottom: 0;
-}
 
-/* Caja 2 */
-.bck-box.bck-box2 {
-	-webkit-box-shadow: 0 3px 0 #BCBDC0;
-	   -moz-box-shadow: 0 3px 0 #BCBDC0;
-	        box-shadow: 0 3px 0 #BCBDC0;
-	-webkit-border-radius: 50%;
-	   -moz-border-radius: 50%;
-	        border-radius: 50%;
-	padding: 6px 15px;
-	text-align: center;
-}
 
-/* Caja 3 */
-.bck-box.bck-box3 {
-	position: relative;
-	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.5);
-	   -moz-box-shadow: 1px 1px 1px rgba(0,0,0,.5);
-	        box-shadow: 1px 1px 1px rgba(0,0,0,.5);
-	-webkit-transform: rotate(2deg);
-	   -moz-transform: rotate(2deg);
-	    -ms-transform: rotate(2deg);
-	     -o-transform: rotate(2deg);
-	        transform: rotate(2deg);
-}
-
-.bck-box.bck-box3 .bck-title {
-	position: absolute;
-	top: 0;
-	left: 50%;
-	-webkit-transform: translate(-50%,-50%);
-	   -moz-transform: translate(-50%,-50%);
-	    -ms-transform: translate(-50%,-50%);
-	     -o-transform: translate(-50%,-50%);
-	        transform: translate(-50%,-50%);
-	display: inline-block;
-	border: 1px solid #10a0c6;
-	-webkit-border-radius: 10px;
-	   -moz-border-radius: 10px;
-	        border-radius: 10px;
-	background: #fff;
-	padding: 0 6px;
-}
-
-.bck-box.bck-box3 .bck-title p {
-	display: inline;
-}
-
-.bck-box.bck-box3 .bck-content {
-	margin-top: 15px;
-}
 
 /*TABLA POR DEFECTO*/
 
@@ -661,42 +540,42 @@ a:hover, a:active, a:focus {
 /* Icons */
 
 #actividad .player.audio {
-	background: url(images/Icon_audio.png) center center / cover;
+    background: url(images/Icon_audio.png) center center / cover;
 }
 
 .item-container .icon:before {
-	content: "";
-	background-repeat: no-repeat;
-	-webkit-background-size: auto 100%;
-	   -moz-background-size: auto 100%;
-	     -o-background-size: auto 100%;
-	        background-size: auto 100%;
-	background-position: center center;
-	display: inline-block;
-	vertical-align: middle;
-	height: 40px;
-	width: 54px;
-	margin-top: -16px;
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: auto 100%;
+       -moz-background-size: auto 100%;
+         -o-background-size: auto 100%;
+            background-size: auto 100%;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    width: 54px;
+    margin-top: -16px;
 }
 
 .item-container .icon-draw:before {
-	background-image: url(images/Icon_draw.png);
+    background-image: url(images/Icon_draw.png);
 }
 
 .item-container .icon-write:before {
-	background-image: url(images/Icon_write.png);
+    background-image: url(images/Icon_write.png);
 }
 
 .item-container .icon-speaking:before {
-	background-image: url(images/Icon_speaking.png);
+    background-image: url(images/Icon_speaking.png);
 }
 
 .item-container .icon-reading:before {
-	background-image: url(images/Icon_reading.png);
+    background-image: url(images/Icon_reading.png);
 }
 
 .item-container .icon-star:before {
-	background-image: url(images/Icon_star.png);
+    background-image: url(images/Icon_star.png);
 }
 
 /* Forms */
@@ -705,12 +584,12 @@ a:hover, a:active, a:focus {
 .content_type_clase_piedrasantademo .slide_main .img-input-container {
     -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0.075);
        -moz-box-shadow: inset 0 0px 0px rgba(0,0,0,0.075);
-    		box-shadow: inset 0 0px 0px rgba(0,0,0,0.075);
+            box-shadow: inset 0 0px 0px rgba(0,0,0,0.075);
     border: 0px solid #ccc;
     border-bottom: 2px dashed #00A99D;
     -webkit-border-radius: 0px;
        -moz-border-radius: 0px;
-    		border-radius: 0px;
+            border-radius: 0px;
 }
 
 .content_type_clase_piedrasantademo .slide_main .fill-text .img-input-container {
@@ -770,9 +649,9 @@ body.content_type_clase_piedrasantademo #actividad .content .fillblanks-draggabl
 .response .bck-i-fullscreen,
 body.content_type_clase_piedrasantademo #actividad .content .fillblanks-draggable
 .img-input-container.imgFilled img {
-	width: auto;
-	height: 100px !important;
-	padding: 0;
+    width: auto;
+    height: 100px !important;
+    padding: 0;
 }
 
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled), 
