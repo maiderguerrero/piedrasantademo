@@ -539,8 +539,21 @@ a:hover, a:active, a:focus {
 
 /* Icons */
 
-#actividad .player.audio {
-    background: url(images/Icon_audio.png) center center / cover;
+#actividad .player.audio, 
+#actividad .player.video, 
+#help-panel-content .player, 
+#remote-alert-modal-rich .player {
+    height: 28px !important;
+    width: 28px;
+    display: inline-block;
+    background-color: #00a99d;
+    background-image: url(../../../images/shared/multimedia-icons.png);
+    background-repeat: no-repeat;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    margin: 0 5px;
+    vertical-align: sub;
 }
 
 .item-container .icon:before {
